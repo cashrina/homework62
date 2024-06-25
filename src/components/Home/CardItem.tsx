@@ -12,7 +12,7 @@ const CardItem: React.FC<Props> = ({ image, title, text }) => {
             <div className="card h-100 shadow-lg">
                 <img className="card-img-top" src={image} alt={`${title} - image`} />
                 <div className="card-body d-flex flex-column">
-                    <h5 className="card-title mt-auto">{title}</h5>
+                    <h5 className="card-title">{title}</h5>
                     <p className="card-text mt-auto">{text}</p>
                 </div>
             </div>
